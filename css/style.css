@@ -1,0 +1,339 @@
+@font-face {
+    font-family: whitney-medium;
+    src: url('/fonts/whitneymedium.otf');
+}
+
+@font-face {
+  font-family: whitney-bold;
+  src: url('/fonts/whitneybold.otf');
+}
+
+@font-face {
+  font-family: whitney-light;
+  src: url('/fonts/whitneylight.otf');
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: whitney-medium;
+
+}
+
+li{
+  list-style: none;
+}
+
+
+/* Start */
+
+
+.nav-list{
+  display: none;
+}
+.btn-login{
+    cursor: pointer;
+    padding: 14px 19px 14px 19px;
+    font-weight: 300;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 40px;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-login:hover{
+  box-shadow: 0.8rem 1.5rem rgb(0 0 0 2);
+
+}
+
+.mobile-toggle{
+  color: white;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  padding: 0 2rem;
+}
+
+.login-wrapper{
+  margin-top: -0.5rem ;
+}
+
+
+.hero{
+  background-image: url('/images/hero-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10rem;
+}
+
+.btn-large{
+  padding: 1rem 2rem;
+  border-radius: 3.3rem;
+  background-color: white;
+  font-size: 1.6rem;
+  display: block;
+  text-decoration: none;
+  color: white;
+  max-width: 405px;
+  max-height: 71px;
+  white-space: nowrap;
+  overflow-wrap: break-word;
+  
+}
+@media(max-width:560px){
+.btn-large{
+  font-size:1.3rem;
+}
+
+}
+
+.btn-large.light{
+  color: black;
+}
+.btn-large.light:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.btn-large.dark{
+ margin-top: 1rem;
+ background-color: #36393f;
+}
+.btn-large.dark:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+.hero-container{
+  padding: 0 2rem !important;
+}
+.hero-content{
+  color: white;
+  font-family: whitney-bold;
+
+}
+
+.hero-title{
+  text-transform: uppercase;
+  font-family: whitney-bold;
+  font-weight: 1000;
+  font-size: 4rem;
+  text-align: center;
+
+}
+.hero-desc{
+  line-height: 2rem;
+  margin-top: 2.4rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+
+.section-col-content{
+  padding: 0 1.5rem !important;
+}
+
+
+.section-title{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding-top:  1rem;
+}
+.section-p{
+  font-family: whitney-light;
+  line-height: 2rem;
+  margin-top: 2.4rem;
+  font-size: 1.2rem;
+}
+
+.just-chillin{
+  background-color: #f6f6f6;
+}
+
+
+
+.reliable{
+  background-color: #f6f6f6;
+}
+
+.reliable-h1{
+  font-family: whitney-bold;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+
+.btn-large.purple{
+  background-color: #7983f5;
+  font-size: 1.6rem;
+}
+
+.btn-large.purple:hover{
+  color:white;
+  text-decoration:underline;
+}
+
+.ready{
+  background-image: url('/images/sprikels-img.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 3rem;
+
+}
+
+.ready-h1{
+  font-family: whitney-bold;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: center;
+  
+}
+
+.footer-primary{
+  background-color:#23272a;
+  color:#fff;
+}
+
+.footer-links-container{
+  padding:0rem 1rem !important;
+}
+
+.footer-links{
+  color: white;
+  text-decoration: none;
+  font-family: whitney-light;
+  font-size: 1.1rem;
+  line-height: 2.2rem;
+
+}
+
+.footer-links:hover{
+  color: white;
+  text-decoration: underline;
+  
+
+}
+
+.footer-links-head{
+  color: #5865f2;
+}
+.footer-links-head:hover{
+  color: #5865f2;
+  text-decoration: underline;
+}
+
+.footer-spacer{
+  padding: 1rem 0;
+}
+
+.footer-title{
+  color: #5865f2;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: whitney-bold; 
+  padding-top:3rem;
+  font-size: 3rem;
+
+}
+
+
+.footer-lng{
+  color: white;
+  text-decoration: none;
+  font-family: whitney-light;
+  font-size: 1.2rem;
+  margin-left:1.9rem;
+  
+  }
+.footer-lng:hover{
+  color: white;
+  text-decoration:underline;
+  
+  }
+
+  .d-flex-social{
+    display: flex;
+    gap:1rem;
+  }
+.socials{
+  color:white;
+  font-size: 1.5rem;
+}
+
+.mobile-toggle i{
+  position: relative;
+  bottom: -5px;
+}
+
+
+@media(min-width:1024px){
+  .nav-list{
+    display: flex;
+    list-style: none;
+  
+  }
+  .nav-links{
+    font-size: 1.1rem;
+    color: white;
+    padding: .4rem 1rem;
+ 
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .navbar-brand{
+    padding-left: 6rem;
+  }
+ 
+ 
+
+
+ .hero-btn-group{
+  display: flex;
+  gap: 2rem;
+ }
+
+ .btn-large.dark{
+  margin-top: 0rem;
+ }
+
+ .section-title{
+  text-align: center;
+  font-size: 2.5rem;
+ }
+ .section-p{
+  text-align: center;
+  font-size: 1.2rem;
+ }
+ .section-img{
+  width: 100%;
+  height: auto;
+ }
+  
+}
+
+
+
+/* stop daniel */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
