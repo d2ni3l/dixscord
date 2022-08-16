@@ -1,2 +1,2 @@
 # dixscord
-Discord clone website
+i clones the official discord website using bootstrap
