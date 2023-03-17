@@ -20,6 +20,10 @@
 
 }
 
+body{
+  overflow-x: hidden !important;
+}
+
 li{
   list-style: none;
 }
@@ -56,15 +60,67 @@ li{
 }
 
 .mobile-nav{
+  visibility: hidden;
+  animation: right-left 1.2s linear;
+  max-width: 330px;
+  min-width:330px;
+  border-top-left-radius: 15px;
   height: 100vh;
   overflow: hidden;
   width: 100vw;
   background: white;
   position:absolute;
   top: 0;
-  left:0;
+  right:0;
+}
+
+.mobile-nav-header{
+  display: flex;
+  justify-content: space-between;
+  margin-inline:2rem;
+  margin-block: 2rem;
+}
+
+.fa-xmark{
+  font-size:
+  1.5rem ;
+}
+
+.mobile-nav-header > svg{
+  width: 8em;
+  height: auto;
+}
+
+.mobile-nav-lists > ul{
+  padding-top: .6rem;
 
 }
+.mobile-nav-lists > ul > li{
+  padding: .6rem 1.5rem;
+  background: white;
+  margin: 0rem 1rem;
+  border-radius: 8px;
+}
+
+.mobile-nav-lists > ul > li > a{
+  text-decoration: none;
+  color: black;
+  font-weight: whitney-light;
+}
+
+.mobile-nav-lists > ul li:first-child{
+  background: #f6f6f6;
+}
+
+.mobile-nav-lists > ul li:first-child > a{
+  color: #7983f5;
+}
+.mobile-nav-border{
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  margin-inline:2rem;
+}
+
 
 .login-wrapper{
   margin-top: -0.5rem ;
