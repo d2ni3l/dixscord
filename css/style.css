@@ -55,6 +55,17 @@ li{
   padding: 0 2rem;
 }
 
+.mobile-nav{
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+  background: white;
+  position:absolute;
+  top: 0;
+  left:0;
+
+}
+
 .login-wrapper{
   margin-top: -0.5rem ;
 }
